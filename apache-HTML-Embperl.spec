@@ -4,7 +4,7 @@
 Summary:	Embperl is a framework for building web sites with Perl
 Name:		apache-%{module}
 Version:	2.2.0
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	GPL
 Group:		System/Servers
 URL:		http://perl.apache.org/embperl/
@@ -32,8 +32,6 @@ BuildRequires:	perl-Tie-IxHash
 BuildRequires:	perl-libwww-perl
 BuildRequires:	perl-devel
 BuildRequires:	file
-Provides:	apache2-HTML-Embperl
-Obsoletes:	apache2-HTML-Embperl
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
@@ -172,5 +170,3 @@ fi
 %{perl_vendorlib}/*
 %{_mandir}/*/*
 %{_var}/www/html/addon-modules/*
-
-
