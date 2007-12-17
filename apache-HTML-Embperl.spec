@@ -32,7 +32,6 @@ BuildRequires:	perl-Tie-IxHash
 BuildRequires:	perl-libwww-perl
 BuildRequires:	perl-devel
 BuildRequires:	file
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Embperl is a framework for building websites with Perl.
