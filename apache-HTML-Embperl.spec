@@ -1,7 +1,7 @@
 %define module HTML-Embperl
 %define mod_conf 76_Embperl.conf
 
-Summary:	Embperl is a framework for building web sites with Perl
+Summary:	Framework for building web sites with Perl
 Name:		apache-%{module}
 Version:	2.2.0
 Release:	%mkrel 5
