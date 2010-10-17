@@ -3,12 +3,12 @@
 
 Summary:	Framework for building web sites with Perl
 Name:		apache-%{module}
-Version:	2.2.0
-Release:	%mkrel 8
+Version:	2.4.0
+Release:	%mkrel 1
 License:	GPL
 Group:		System/Servers
 URL:		http://perl.apache.org/embperl/
-Source0:	ftp://ftp.dev.ecos.de/pub/perl/embperl/Embperl-%{version}.tar.bz2
+Source0:	ftp://ftp.dev.ecos.de/pub/perl/embperl/Embperl-%{version}.tar.gz
 Source1:	%{mod_conf}
 Patch0:		Embperl-2.09b-fix-CVS.patch
 Requires(pre): rpm-helper
