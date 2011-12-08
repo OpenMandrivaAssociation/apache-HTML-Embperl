@@ -142,7 +142,7 @@ popd
 cd test
 #chmod 755 tmp
 find -type f|xargs perl -pi -e \
-	"s|$RPM_BUILD_DIR/embperl|%{_docdir}/%{name}-%{version}|g;"
+	"s|%{_builddir}/embperl|%{_docdir}/%{name}-%{version}|g;"
 perl -pi -e 's/\015//;' conf/config.pl
 cd ..
 rm -f %{buildroot}$vendorarch/auto/Embperl/*.bs
