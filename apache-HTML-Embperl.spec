@@ -170,3 +170,120 @@ fi
 %{perl_vendorlib}/*
 %{_mandir}/*/*
 %{_var}/www/html/addon-modules/*
+
+
+%changelog
+* Wed Jan 25 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 2.4.0-2
++ Revision: 768358
+- svn commit -m mass rebuild of perl extension against perl 5.14.2
+
+* Sun Oct 17 2010 Oden Eriksson <oeriksson@mandriva.com> 2.4.0-1mdv2011.0
++ Revision: 586360
+- 2.4.0
+
+* Tue Sep 01 2009 Thierry Vignaud <tv@mandriva.org> 2.2.0-8mdv2010.0
++ Revision: 423982
+- rebuild
+
+* Thu Jun 19 2008 Thierry Vignaud <tv@mandriva.org> 2.2.0-7mdv2009.0
++ Revision: 226157
+- rebuild
+
+* Mon Feb 18 2008 Thierry Vignaud <tv@mandriva.org> 2.2.0-6mdv2008.1
++ Revision: 170700
+- rebuild
+- fix "foobar is blabla" summary (=> "blabla") so that it looks nice in rpmdrake
+
+* Tue Jan 15 2008 Thierry Vignaud <tv@mandriva.org> 2.2.0-5mdv2008.1
++ Revision: 152438
+- rebuild
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+* Sun Sep 09 2007 Oden Eriksson <oeriksson@mandriva.com> 2.2.0-3mdv2008.0
++ Revision: 83747
+- rebuild
+
+
+* Sun Mar 11 2007 Oden Eriksson <oeriksson@mandriva.com> 2.2.0-2mdv2007.1
++ Revision: 141325
+- rebuild
+
+* Thu Nov 09 2006 Oden Eriksson <oeriksson@mandriva.com> 2.2.0-1mdv2007.1
++ Revision: 79302
+- Import apache-HTML-Embperl
+
+* Tue Apr 11 2006 Oden Eriksson <oeriksson@mandriva.com> 2.2.0-1mdk
+- Minor feature enhancements
+- drop upstream patches; P1
+- zero out LD_RUN_PATH to fix rpath
+
+* Tue Jan 31 2006 Oden Eriksson <oeriksson@mandriva.com> 2.1.0-1mdk
+- 2.1.0
+- added P1 to make it build against apache-2.2.0
+- fix versioning
+
+* Tue Oct 04 2005 Oden Eriksson <oeriksson@mandriva.com> 2.0.54_2.0.1-1mdk
+- 2.0.1 (Minor bugfixes)
+- run the test suite
+
+* Tue Aug 16 2005 Oden Eriksson <oeriksson@mandriva.com> 2.0.54_2.0.0-1mdk
+- 2.0.0 (Major feature enhancements)
+
+* Mon Aug 15 2005 Oden Eriksson <oeriksson@mandriva.com> 2.0.54_2.0-0.rc5.1mdk
+- 2.0 rc5
+
+* Fri Jun 03 2005 Oden Eriksson <oeriksson@mandriva.com> 2.0.54_2.0-0.rc3.1mdk
+- 2.0 rc3
+- rename the package
+- the conf.d directory is renamed to modules.d
+- use new rpm-4.4.x pre,post magic
+
+* Sun Mar 20 2005 Oden Eriksson <oeriksson@mandrakesoft.com> 2.0.53_2.0-0.rc1.6mdk
+- remove broken perl version detection, rely on autodetection instead
+
+* Sun Mar 20 2005 Oden Eriksson <oeriksson@mandrakesoft.com> 2.0.53_2.0-0.rc1.5mdk
+- use the %%mkrel macro
+
+* Mon Feb 28 2005 Oden Eriksson <oeriksson@mandrakesoft.com> 2.0.53_2.0-0.rc1.4mdk
+- fix %%post and %%postun to prevent double restarts
+
+* Thu Feb 24 2005 Stefan van der Eijk <stefan@eijk.nu> 2.0.53_2.0-0.rc1.3mdk
+- fix bug #6574
+
+* Wed Feb 16 2005 Oden Eriksson <oeriksson@mandrakesoft.com> 2.0.53_2.0-0.rc1.2mdk
+- spec file cleanups, remove the ADVX-build stuff
+
+* Wed Feb 09 2005 Oden Eriksson <oeriksson@mandrakesoft.com> 2.0.53_2.0-0.rc1.1mdk
+- built for apache 2.0.53
+
+* Fri Jan 21 2005 Oden Eriksson <oeriksson@mandrakesoft.com> 2.0.52_2.0-0.rc1.2mdk
+- rebuilt for latest mod_perl
+
+* Tue Nov 30 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 2.0.52_2.0-0.rc1.1mdk
+- rebuilt for perl-5.8.6
+- fix version
+
+* Wed Sep 29 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 2.0.52_2.0rc1-1mdk
+- built for apache 2.0.52
+
+* Fri Sep 17 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 2.0.51_2.0rc1-1mdk
+- built for apache 2.0.51
+
+* Thu Aug 26 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 2.0rc1-0.1mdk
+- 2.0rc1
+
+* Tue Aug 03 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 2.0b12-0.20040801.1mdk
+- use a recent snap (20040801)
+
+* Tue Aug 03 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 2.0b11-1mdk
+- 2.0b11
+- remove redundant provides
+- pull in the apr and apu headers where ever they may be
+
+* Thu Apr 08 2004 Michael Scherer <misc@mandrake.org> 2.0b9-0.20030308.8mdk 
+- rebuild for new perl
+
