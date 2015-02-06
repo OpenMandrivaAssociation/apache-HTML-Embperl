@@ -4,7 +4,7 @@
 Summary:	Framework for building web sites with Perl
 Name:		apache-%{module}
 Version:	2.4.0
-Release:	2
+Release:	3
 License:	GPL
 Group:		System/Servers
 URL:		http://perl.apache.org/embperl/
