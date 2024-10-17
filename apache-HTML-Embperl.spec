@@ -7,7 +7,7 @@ Version:	2.4.0
 Release:	3
 License:	GPL
 Group:		System/Servers
-URL:		http://perl.apache.org/embperl/
+URL:		https://perl.apache.org/embperl/
 Source0:	ftp://ftp.dev.ecos.de/pub/perl/embperl/Embperl-%{version}.tar.gz
 Source1:	%{mod_conf}
 Patch0:		Embperl-2.09b-fix-CVS.patch
