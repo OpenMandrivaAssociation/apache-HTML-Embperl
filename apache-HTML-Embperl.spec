@@ -16,6 +16,7 @@ Requires(postun): rpm-helper
 Requires(pre):	apache-conf >= 2.2.0
 Requires(pre):	apache >= 2.2.0
 Requires:	apache-mod_perl >= 1:2.0.2
+BuildRequires:	make
 BuildRequires:	apache >= 2.2.0
 BuildRequires:	apache-devel >= 2.2.0
 BuildRequires:	apache-modules >= 2.2.0
